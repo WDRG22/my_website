@@ -1,0 +1,40 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.container section:nth-of-type(1) {
+  background-color: rgb(10, 10, 10);
+  color: green;
+}
+.container section:nth-of-type(2) {
+  background-color: rgb(20, 20, 20);
+  color: cyan;
+}
+.container section:nth-of-type(3) {
+  background-color: rgb(30, 30, 30);
+  color: yellow;
+}
+.container section:nth-of-type(4) {
+  background-color: rgb(40, 40, 40);
+  color: magenta;
+}/*# sourceMappingURL=main.css.map */
